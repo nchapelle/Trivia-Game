@@ -156,7 +156,7 @@ var questions = {
     questionList: ["Are you in love?", "Is Pikachu pink?", "What is 4+2?", "Buffalo Soldier"],
     gameCard: function(){
         var gameBox = $("<div>");
-        gameBox.addClass("col-xs-12 col-med-6 col-lg-3");
+        gameBox.addClass("col-12");
 
         var gamecard = $("<div>");
         gamecard.addClass("card text-center");
